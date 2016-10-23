@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width">
+	<title></title>
+</head>
+<body>
+
+<!-- 定义页面容器元素 -->
+<div id="app">
+	<section class="list">
+		<header class="header">
+			<div class="search-container">
+				<a href="javascript:void(0);" class="ico_hea btn_header_ser">
+					<i class="ico_serch_hea"></i>
+				</a>	
+			</div>				
+			<h1><span class="title">婚礼时尚网 </span><span class="subtitle">- 婚纱美图</span></h1>
+			<div class="arrow-container">
+				<span class="arrow"><span class="arrow green"></span></span>
+			</div>
+		</header>
+		<div class="inner">
+			<div class="search dis-n">
+				<input type="text" placeholder="搜索你想要的图片">
+				<span></span>
+			</div>
+			<div class="nav-container">
+				<ul class="nav clearfix">
+					<li>全部</li>
+					<li data-id="1" class="sort">中式</li>
+					<li data-id="2" class="sort">文艺</li>
+					<li data-id="3" class="sort">韩式</li>
+					<li data-id="4" class="sort">旅拍</li>
+					<li data-id="5" class="sort">内景</li>
+					<li data-id="6" class="sort">欧式</li>
+					<li data-id="7" class="sort">个性</li>
+				</ul>
+			</div>
+			<div class="image-container">
+				<div class="left-container"></div>
+				<div class="right-container"></div>
+			</div>
+			<div class="go-back">返回顶部</div>
+		</section>
+		<section class="layer"></section>
+	</div>
+</div>
+<!-- 定义大图页的模板 -->
+<script type="text/template" id="tpl_layer">
+	<div class="layer-container" style="<%=style%>"><img src="<%=url%>" alt=""></div>
+	<header class="header hide">
+		<div class="arrow-container">
+			<span class="arrow arrow-btn"><span class="arrow black"></span></span>
+		</div>
+		<h1><%=title%></h1>
+	</header>
+</script>
+<script type="text/javascript" src="static/sea.js"></script>
+<script type="text/javascript" src="static/lib/seajs-css.js"></script>
+<script type="text/javascript" src="static/lib/zepto.js"></script>
+<script type="text/javascript" src="static/lib/zepto.touch.js"></script>
+<script type="text/javascript" src="static/lib/underscore.js"></script>
+<script type="text/javascript" src="static/lib/backbone.js"></script>
+<script type="text/javascript">
+	seajs.use('app', function (app) {
+		app();
+	})
+</script>
+</body>
+</html>

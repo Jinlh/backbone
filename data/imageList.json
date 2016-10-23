@@ -1,0 +1,131 @@
+{
+	"errno": 0,
+	"data": [
+		{
+			"title": "婚纱美图 - 中式客照",
+			"url": "img/01.jpg",
+			"type": 1,
+			"width": 640,
+			"height": 400
+		},
+		{
+			"title": "婚纱美图 - 文艺客照",
+			"url": "img/06.jpg",
+			"type": 2,
+			"width": 959,
+			"height": 713
+		},
+		{
+			"title": "婚纱美图 - 韩式客照",
+			"url": "img/03.jpg",
+			"type": 3,
+			"width": 640,
+			"height": 400
+		},
+		{
+			"title": "婚纱美图 - 旅拍客照",
+			"url": "img/07.jpg",
+			"type": 4,
+			"width": 1920,
+			"height": 1200
+		},
+		{
+			"title": "婚纱美图 - 内景客照",
+			"url": "img/04.jpg",
+			"type": 5,
+			"width": 958,
+			"height": 717
+		},
+		{
+			"title": "婚纱美图 - 欧式客照",
+			"url": "img/08.jpg",
+			"type": 6,
+			"width": 640,
+			"height": 393
+		},
+		{
+			"title": "婚纱美图 - 个性客照",
+			"url": "img/05.png",
+			"type": 7,
+			"width": 600,
+			"height": 432
+		},
+		{
+			"title": "婚纱美图 - 中式客照",
+			"url": "img/09.jpg",
+			"type": 1,
+			"width": 620,
+			"height": 413
+		},
+		{
+			"title": "婚纱美图 - 文艺客照",
+			"url": "img/14.jpg",
+			"type": 2,
+			"width": 640,
+			"height": 425
+		},
+		{
+			"title": "婚纱美图 - 韩式客照",
+			"url": "img/10.jpg",
+			"type": 3,
+			"width": 1920,
+			"height": 1200
+		},
+		{
+			"title": "婚纱美图 - 旅拍客照",
+			"url": "img/15.jpg",
+			"type": 4,
+			"width": 615,
+			"height": 435
+		},
+		{
+			"title": "婚纱美图 - 内景客照",
+			"url": "img/11.jpg",
+			"type": 5,
+			"width": 990,
+			"height": 742
+		},
+		{
+			"title": "婚纱美图 - 欧式客照",
+			"url": "img/16.jpg",
+			"type": 6,
+			"width": 1075,
+			"height": 717
+		},
+		{
+			"title": "婚纱美图 - 个性客照",
+			"url": "img/12.jpg",
+			"type": 7,
+			"width": 1242,
+			"height": 827
+		},
+		{
+			"title": "婚纱美图 - 中式客照",
+			"url": "img/17.jpg",
+			"type": 1,
+			"width": 900,
+			"height": 900
+		},
+		{
+			"title": "婚纱美图 - 韩式客照",
+			"url": "img/18.jpg",
+			"type": 3,
+			"width": 676,
+			"height": 522
+		},
+		{
+			"title": "婚纱美图 - 内景客照",
+			"url": "img/19.jpg",
+			"type": 5,
+			"width": 620,
+			"height": 413
+		},
+		{
+			"title": "婚纱美图 - 个性客照",
+			"url": "img/20.jpg",
+			"type": 7,
+			"width": 799,
+			"height": 531
+		}
+	]
+}
